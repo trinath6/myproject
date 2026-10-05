@@ -1,0 +1,41 @@
+/* Navbar general styling */
+.custom-navbar {
+  background-color: #f6c4a5;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  height: 80px !important;
+}
+
+/* Nav Link Text styling matching dark brown tone */
+.custom-navbar .nav-item-custom {
+  color: #3e2010 !important;
+  font-size: 1.05rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.custom-navbar .nav-item-custom:hover {
+  color: #e35a12 !important;
+}
+
+/* Orange Pill Waitlist Button */
+.btn-join-waitlist {
+  background-color: #e35a12 !important;
+  border: none !important;
+  color: #ffffff !important;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(227, 90, 18, 0.25);
+  transition: transform 0.15s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.btn-join-waitlist:hover {
+  background-color: #cb4e0d !important;
+  transform: translateY(-1px);
+}
+
+.navbar-logo {
+  padding-right:20px;
+  padding-left:50px;
+  height:70px;       
+  width: auto;          
+  
+}
