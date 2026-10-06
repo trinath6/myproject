@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import './NavigationBar.css'; // Import the custom styles below
-
+//navbar code 
 const NavigationBar = () => {
   return (
     <Navbar bg="white" expand="lg" className="custom-navbar py-3 border-bottom">
